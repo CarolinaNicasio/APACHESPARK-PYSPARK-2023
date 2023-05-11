@@ -1,41 +1,55 @@
+
 ![MasterHead](https://github.com/CarolinaNicasio/APACHESPARK-PYSPARK-2023/blob/main/images-pyspark/portadapyspark.png)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
+ <p align="center">
+    <img src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white"/>
+    </a>
+    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
+    </a>
+      <img src="https://github.com/arifszn/php-blog-client/actions/workflows/ci.yml/badge.svg"/>
+    </a>
+      <img src="https://api.codeclimate.com/v1/badges/9be4aef1d9fb784d3999/maintainability"/>
+    </a>
+      <img src="https://api.codeclimate.com/v1/badges/9be4aef1d9fb784d3999/test_coverage"/>
+    </a>
+     <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/>
+    </a>
+    <a href="https://twitter.com/Cfnicasio">
+      <img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Farifszn%2Fphp-blog-client"/>
+    </a>
+  </p>
 
-##ÍNDICE
+## TABLA DE CONTENIDO :scroll:
 
--[APACHE SPARK](#Apache-Spark)
+- [APACHE SPARK](#Apache-Spark)
 
--[Características](#Características)
+- [Características](#Características)
 
--[Componentes](#Componentes)
+- [Componentes](#Componentes)
 
--[Beneficios](#Beneficios)
+- [Beneficios](#Beneficios)
 
--[¿Cómo usan las empresas Spark?](#¿Cómo-usan-las-empresas-Spark?)
+- [¿Cómo usan las empresas Spark?](#¿Cómo-usan-las-empresas-Spark?)
 
--[¿Por qué elegir Spark en lugar de un motor solo de SQL?](#¿Por-qué-elegir-Spark-en-lugar-de-un-motor-solo-de-SQL?)
+- [¿Por qué elegir Spark en lugar de un motor solo de SQL?](#¿Por-qué-elegir-Spark-en-lugar-de-un-motor-solo-de-SQL?)
 
--[PYSPARK](#PYSPARK)
+- [PYSPARK](#PYSPARK)
 
--[Arquitectura de PySpark](#Arquitectura-de-PySpark)
+    - [Arquitectura de PySpark](#Arquitectura-de-PySpark)
 
--[Tipos de Cluster Manager](#Tipos-de-Cluster-Manager)
+    - [Tipos de Cluster Manager](#Tipos-de-Cluster-Manager)
 
--[¿Qué es RDD (Resilient Distributed Datasets)?](#¿Qué-es-RDD-(Resilient-Distributed-Datasets)?)
+    - [¿Qué es RDD (Resilient Distributed Datasets)?](#¿Qué-es-RDD-(Resilient-Distributed-Datasets)?)
 
--[Crear RDD](#Crear-RDD)
+    - [Crear RDD](#Crear-RDD)
 
-  -[Funciones lambda](#Funciones-lambda)
+    - [Funciones lambda](#Funciones-lambda)
 
-  -[Transformaciones](#Transformaciones)
+    - [Transformaciones](#Transformaciones)
 
-  -[Acciones](#Acciones)
+    - [Acciones](#Acciones)
 
-  -[RDD vs Dataframe](#RDD-vs-Dataframe)
+    - [RDD vs Dataframe](#RDD-vs-Dataframe)
   
-  -[Dataframe](#Dataframe)
-
 
 
 # APACHE SPARK
@@ -191,6 +205,7 @@ Las transformaciones más comunes en un RDD son:
 - intersection
 - distinct
 - groupByKey
+
 
 **flatMap**
 
@@ -466,3 +481,4 @@ df = spark.createDataFrame(data=data, schema = columns)
 |Jen      |Mary      |Brown   |1980-02-17|F     |-1    |
 +---------+----------+--------+----------+------+------+
  ```
+
